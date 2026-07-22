@@ -47,11 +47,14 @@ body {
 }
 
 @media (max-widht: 768px) {
-    h1 {
+    .header {
+        display:flex;
+        flex-direction: column;
         font-size: 20px;
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 100vh;
     }
 
     .box {
